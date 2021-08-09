@@ -34,7 +34,7 @@ class UsersController < ApplicationController
         @entry = Entry.new
       end
     end
-  end
+  end 
   
   def edit
    @user = User.find(params[:id])
